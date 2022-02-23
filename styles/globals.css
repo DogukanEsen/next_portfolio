@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #426696;
+  font-weight: 600;
+  font-size: 3rem;
+  opacity: 0.8;
+}
+
+h2,
+p {
+  color: #658ec6;
+  font-weight: 500;
+  opacity: 0.8;
+}
+
+h3 {
+  color: #426696;
+  font-weight: 600;
+  opacity: 0.8;
+}
+
+.link {
+  display: flex;
+  margin: 2rem 0rem;
+  padding: 1rem 5rem;
+  align-items: center;
+}
+
+.link h2 {
+  padding: 0rem 2rem;
+}
+
+.games {
+  flex: 2;
+}
+.pro img {
+  position: absolute;
+  top: -40%;
+  right: 80%;
+  height: 50px;
+  width: 50px;
+}
+
+.pro h2 {
+  width: 100%;
+  color: white;
+  font-weight: 800;
+}
+a {
+  text-decoration: none;
+  color: #65dfc9;
+}
+
+a > h3 {
+  text-align: center;
+}
+
+.status h2 {
+  font-size: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .glass {
+    width: 470px;
+    height: 800px;
+  }
+  .dashboard {
+    width: 100px;
+    justify-content: end;
+  }
+  .games {
+    width: 370px;
+  }
+  .status {
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .glass {
+    width: 400px;
+    height: 400px;
+  }
+  .dashboard {
+    width: 20px;
+    justify-content: end;
+  }
+  .games {
+    width: 20px;
+  }
+  .status {
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+  }
+  h1 {
+    font-size: 35px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .glass {
+    width: 400px;
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .glass {
+    width: 310px;
+    height: 800px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+  .status {
+    font-size: 10px;
+  }
+}
