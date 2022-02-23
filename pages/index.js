@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import Typical from "react-typical";
 
 import Layout from "../Components/Layout.js";
-import GithubIcon from "../components/icons/Github.js";
-import TwitterIcon from "../components/icons/Twitter.js";
-import LinkedinIcon from "../components/icons/Linkedin.js";
+import GithubIcon from "../Components/icons/Github.js";
+import TwitterIcon from "../Components/icons/Twitter.js";
+import LinkedinIcon from "../Components/icons/Linkedin.js";
 import { useTheme } from "next-themes";
 
 const TypingAnimation = React.memo(

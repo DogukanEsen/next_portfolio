@@ -2,14 +2,14 @@
 import Link from "next/link";
 import Image from "next/image";
 import React from "react";
-import Layout from "../components/Layout";
+import Layout from "../Components/Layout";
 import { motion } from "framer-motion";
 import Typical from "react-typical";
 import { useTheme } from "next-themes";
 
-import GithubIcon from "../components/icons/Github.js";
-import TwitterIcon from "../components/icons/Twitter.js";
-import LinkedinIcon from "../components/icons/Linkedin.js";
+import GithubIcon from "../Components/icons/Github.js";
+import TwitterIcon from "../Components/icons/Twitter.js";
+import LinkedinIcon from "../Components/icons/Linkedin.js";
 
 const TypingAnimation = React.memo(
   () => {
