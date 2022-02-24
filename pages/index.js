@@ -6,9 +6,9 @@ import { motion } from "framer-motion";
 import Typical from "react-typical";
 
 import Layout from "../Components/Layout.js";
-import GithubIcon from "../Components/icons/Github.js";
-import TwitterIcon from "../Components/icons/Twitter.js";
-import LinkedinIcon from "../Components/icons/Linkedin.js";
+import GithubIcon from "../components/icons/Github.js";
+import TwitterIcon from "../components/icons/Twitter.js";
+import LinkedinIcon from "../components/icons/Linkedin.js";
 import { useTheme } from "next-themes";
 
 const TypingAnimation = React.memo(
@@ -51,9 +51,11 @@ export default function Home() {
             <div className="user text-center ">
               <br />
               <Image
-                className="h-[100px] w-[120px] rounded-[2rem]"
-                src="./images/img.jpeg"
+                className="h-[100px] w-[120px] rounded-[2rem] flex"
+                src="/images/img.jpeg"
                 alt=""
+                width={120}
+                height={100}
               />
               <h3>Doğukan ESEN</h3>
               <TypingAnimation />
@@ -116,7 +118,7 @@ export default function Home() {
             <a href="mailto:esendogukan@hotmail.com">
               <div className="pro bg-gradient-to-tr from-[#65dfc9] to-[#6cdbeb] rounded-[2rem] bg-white p-[1rem] relative">
                 <h2>Hiring !</h2>
-                <Image src="./images/hiring.png" alt="" />
+                <Image src="/images/hiring.png" alt="" layout="fill" />
               </div>
             </a>
           </div>
